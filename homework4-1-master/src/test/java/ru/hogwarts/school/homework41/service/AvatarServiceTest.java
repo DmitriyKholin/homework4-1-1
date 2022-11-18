@@ -17,6 +17,7 @@ import java.util.Optional;
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)
 class AvatarServiceTest {
+
     @Mock
     private AvatarRepository repositoryMock;
     private AvatarService out;
