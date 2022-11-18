@@ -9,6 +9,7 @@ import ru.hogwarts.school.homework41.model.Student;
 import java.util.List;
 import java.util.Optional;
 
+
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
 

@@ -21,6 +21,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)
 class StudentServiceTest {
+
     @Mock
     private StudentRepository repositoryMock;
     private StudentService out;

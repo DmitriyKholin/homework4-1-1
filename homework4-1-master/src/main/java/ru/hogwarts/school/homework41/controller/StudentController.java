@@ -12,6 +12,7 @@ import java.util.Optional;
 @RequestMapping("/student")
 @RestController
 public class StudentController {
+
     private final StudentService studentService;
 
     public StudentController(StudentService studentService) {
